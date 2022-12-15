@@ -1,0 +1,40 @@
+.home-page{
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(214, 214, 214, 0.928);
+  text-align: center;
+  color: black;
+}
+.home-intro img{
+  width: 700px;
+  height: 400px;
+}
+.home-intro > h1{
+  font-size: 35px;
+}
+.home-intro > p{
+  font-size: 18px;
+}
+.home-intro > h1, h2{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+}
+
+.home-links{
+  display: flex;
+  justify-content: space-around;
+}
+.home-links img{
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+.home-links img:hover{
+  transform: rotate(180deg);
+  transition: 10s;
+}
+@media(max-width: 720px) {
+  .app-header {
+    background-color: var(--clr4);
+    color: var(--secondary-clr2);
+  }
+}

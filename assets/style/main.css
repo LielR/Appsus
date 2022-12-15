@@ -1,0 +1,30 @@
+/* Setup */
+@import 'setup/vars.css';
+@import 'setup/typography.css';
+
+/* Base */
+@import 'base/base.css';
+@import 'base/helpers.css';
+@import 'base/layout.css';
+@import 'base/forms.css';
+
+/* General Components */
+@import 'cmps/home-page.css';
+@import 'cmps/app-header.css';
+@import 'cmps/app-footer.css';
+@import 'cmps/app-home.css';
+@import 'cmps/user-msg.css';
+@import 'cmps/app-about.css';
+
+/* Apps */
+@import 'apps/mail/mail-app.css';
+@import 'apps/note/note-app.css';
+@import 'apps/note/note-slider.css';
+/* TODO: export css below */
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
